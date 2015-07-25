@@ -1,2 +1,6 @@
-.storyLine .storyBlock:nth-child(2) {display: none;}
-.storyLine .skitIconAndText:nth-child(2) {display: none;}
+.storyLine .storyBlock:nth-child(2),
+.storyLine .skitIconAndText:nth-child(2),
+div .skit-name:nth-child(2) {
+    display: none;
+}
+
